@@ -18,7 +18,12 @@ void setup()
 {
   pinMode(LED_BUILTIN, OUTPUT);              //  declaring pinMode
 
-    // Writing Jasdeep with morsecode
+   }
+
+
+void loop() 
+{
+ // Writing Jasdeep with morsecode
 //----------------------------------------------------------------------------------------------------------------
   // J is written as . _ _ _
   digitalWrite(LED_BUILTIN, HIGH);   
@@ -107,11 +112,6 @@ void setup()
   digitalWrite(LED_BUILTIN, HIGH);   
   delay(500);                       
   digitalWrite(LED_BUILTIN, LOW);    
-  delay(1000);}
-
-
-void loop() 
-{
-
+  delay(1000);
 
 }
